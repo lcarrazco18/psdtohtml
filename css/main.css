@@ -19,16 +19,21 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 30px 40px;
 }
 
 .nav-menu {
     list-style: none;
-    color: #fff;
 }
 
 .nav-menu li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
-    
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-menu li a {
+    text-decoration: none;    
+    color: #fff;
 }
