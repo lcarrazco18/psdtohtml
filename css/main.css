@@ -5,13 +5,14 @@
 }
 
 header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url("../images/hero.jpg");
     height: 800px;
     background-size: cover;
+    text-align: center;
 }
 
 .logo {
-    color: white;
+    color: #fff;
     font-family: 'Yesteryear', cursive;
     font-size: 40px;
 }
@@ -24,6 +25,7 @@ nav {
 
 .nav-menu {
     list-style: none;
+    color: #fff;
 }
 
 .nav-menu li {
@@ -34,6 +36,50 @@ nav {
 }
 
 .nav-menu li a {
-    text-decoration: none;    
+    text-decoration: none;
     color: #fff;
+    padding: 0 10px;
+}
+
+.nav-menu li a:hover {
+    color: #f2ac32;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-title-1 {
+    color: #f2ac32;
+    font-size: 44px;
+    font-family: 'Rochester', cursive;
+    margin-top: 170px;
+    margin-bottom: 15px;
+}
+
+.header-title-2 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    font-size: 55px;
+    letter-spacing: 6px;
+    margin-bottom: 30px;
+}
+
+.header-cta-button {
+    color: #fff;
+    background-color: #f2ac32;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-cta-button:hover {
+    background-color: #c48924;
+}
+
+.search {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.my-bag {
+    font-size: 26px;
 }
