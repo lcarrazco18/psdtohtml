@@ -87,15 +87,77 @@ nav {
 /**************  Discover Section ***************************/
 
 .discover-section {
-    background-color: #f2f2f2;
+    background-color: #f0f0f0;
     display: flex;
     justify-content: center;
+    padding: 100px;
+}
+
+.food-border {
+    border: 2px solid #f2ac32;
+    position: relative;
+}
+
+.food-overlay {
+    padding: 100px 10px 0 10px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
 }
 
 .food-item {
     height: 400px;
-    width: 200px;
-    background-color: blueviolet;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.food-item p {
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.food-item a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f2ac32;
+    font-family: 'Oswald', sans-serif;
+}
+
+.food-1 {
+    background-image: url("../images/burger.jpg");
+    background-size: cover;
+    margin-top: -20px;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+.food-2 {
+    background-image: url("../images/egg-toast.jpg");
+    background-size: cover;
+    -webkit-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: -3px 3px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+.discover-h1 {
+    font-family: 'Rochester', cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+}
+
+.discover-h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
 }
