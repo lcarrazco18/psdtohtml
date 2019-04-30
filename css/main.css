@@ -281,3 +281,78 @@ nav {
     bottom: -100px;
     right: 0;
 }
+
+/**************  Special Menu Section  ***************************/
+
+.special-menu-section {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+.special-menu-h1 {
+    font-family: 'Rochester', cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.special-menu-h2 {
+    color: #000;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+.special-menu-h3 {
+    width: 100%;
+    font-family: 'Rochester', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.special-menu-h4 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+.special-menu-p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.seperator {
+    display: inline-block;
+    width: 40px;
+    border-bottom: 2px solid #fff;
+    margin: 15px auto;
+}
+
+.special-menu-col {
+    width: 50%;
+}
+
+.col-large {
+    width: 50%;
+    height: 450px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.col-large1 {
+    background-color: #f2ac32;
+    color: #fff;
+    justify-content: center;
+}
+
+.fa-ice-cream {
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
