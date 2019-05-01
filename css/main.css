@@ -334,6 +334,9 @@ nav {
 
 .special-menu-col {
     width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .col-large {
@@ -345,14 +348,24 @@ nav {
     flex-wrap: wrap;
 }
 
-.col-large1 {
+.col-large1, .col-large3 {
     background-color: #f2ac32;
     color: #fff;
     justify-content: center;
 }
 
-.fa-ice-cream {
+.fa-ice-cream, .fa-utensils {
     width: 100%;
     font-size: 50px;
     margin-bottom: 10px;
+}
+
+.col-large2 {
+    background-image: url('../images/icecream.jpg');
+    background-size: cover;
+}
+
+.col-large4 {
+    background-image: url('../images/pizza-slice.jpg');
+    background-size: cover;
 }
