@@ -290,6 +290,15 @@ nav {
     padding: 50px;
 }
 
+.special-menu-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: wrap;  
+}
+
 .special-menu-h1 {
     font-family: 'Rochester', cursive;
     color: #f2ac32;
@@ -393,6 +402,18 @@ nav {
     background-color: #fff;
 }
 
+.col-small-2 {
+    background-image: url('../images/salmon.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.col-small-3 {
+    background-image: url('../images/small-pizza.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 .col-small-h3 {
     font-family: 'Rochester', cursive;
     font-size: 22px;
@@ -416,4 +437,28 @@ nav {
 
 .seperator-orange {
     border-bottom: 2px solid#f2ac32;
+}
+
+/**************  OUR Menu Section  ***************************/
+
+.our-menu-section {
+    background-image: url('..//images/pancake.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 50px;
+}
+
+.our-menu-h1 {
+    font-family: 'Rochester', cursive;
+    color: #f2ac32;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.our-menu-h2 {
+    color: #fff;
+    margin-bottom: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
 }
