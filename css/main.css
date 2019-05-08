@@ -442,10 +442,10 @@ nav {
 /**************  OUR Menu Section  ***************************/
 
 .our-menu-section {
-    background-image: url('..//images/pancake.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../images/pancake.jpg");
     background-size: cover;
     text-align: center;
-    padding: 50px;
+    padding: 150px 50px;
 }
 
 .our-menu-h1 {
@@ -461,4 +461,55 @@ nav {
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     letter-spacing: 2px;
+}
+
+.food-container {
+    color: #fff;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+}
+
+.our-menu-row {
+    display: flex;
+    justify-content: center;
+}
+
+.our-menu-col {
+    width: 335px;
+    margin: 30px;
+}
+
+.food-title {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.food-price {
+    font-size: 25px;
+    color: #f2ac32;
+    font-family: 'Oswald', sans-serif;
+}
+
+.food-ingredients {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.our-menu-button {
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 10px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.our-menu-button:hover {
+        background-color: rgba(255,255,255, 0.8);
+        color: #000;
+        padding: 10px 25px;
 }
