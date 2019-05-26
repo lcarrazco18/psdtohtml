@@ -566,3 +566,70 @@ nav {
     text-decoration: none;
     padding: 15px 50px;
 }
+
+/**************  FOOTER Section  ***************************/
+
+footer {
+    padding: 60px 0px;
+    padding-bottom: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../images/various-plates.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    margin: 30px 60px;    
+}
+
+.footer-title {
+    font-family: 'Oswald', sans-serif;
+    color: #f2ac32;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-email {
+    padding: 10px 22px;
+    width: 230px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.footer-subscribe {
+    display: inline-block;
+    width: 230px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    background-color: #f2ac32;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.copyright {
+    padding: 40px;
+    color: #F0F0F0;
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-top: 1px solid rgb(240, 240, 240, .425);
+}
+
+.copyright-name {
+    color: #f2ac32;
+}
